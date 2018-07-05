@@ -17,6 +17,10 @@ export default StyleSheet.create({
     containerCard: {
         flexDirection: 'row',
         alignItems: 'center',
+        marginBottom: 15,
+        paddingVertical: 15,
+        borderBottomWidth: StyleSheet.hairlineWidth,
+        borderColor: Colors.black.absolut,
     },
     containerFlatlistContent: {
         paddingHorizontal: 20,

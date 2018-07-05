@@ -34,7 +34,9 @@ const home = class HomePage extends Component {
             <Image source={iconLogo} style={Styles.image}/>
               <TouchableOpacity
                 style={Styles.button}
-                onPress={this.props.navigation.navigate.bind(this, 'User')}
+                onPress={this.props.navigation.navigate.bind(this, 'User', {
+                  type: 'modal',
+                })}
               >
                 <Text style={Styles.textButton}>USERS</Text>
               </TouchableOpacity>

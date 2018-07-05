@@ -19,7 +19,6 @@ import Header from '../header';
 const mapStateToProps = (state) => ({
     ...state
 });
-console.log(Actions);
 
 const mapDispatchToProps = (dispatch) => ({
     writeUsername: (users) => dispatch({
@@ -89,8 +88,6 @@ const user = class UserPage extends Component {
     }
 
     render() {
-        console.log(this.props);
-        
         return (
             <View style={Styles.container}>
                 <Header
@@ -126,8 +123,8 @@ const user = class UserPage extends Component {
                                 return (
                                     <View key={index} style={Styles.containerCard}>
                                         <Image source={iconLogo} style={{width: 80, height: 20, marginRight: 15}}/>
-                                        <View>
-                                            <Text>Name : <Text>{item.name}</Text></Text>
+                                        <View style={{flex: 1}}>
+                                            <Text numberOfLines={1} ellipsizeMode={'tail'}>Name : <Text>{item.name}</Text></Text>
                                             <Text>Age : <Text>{item.age}</Text></Text>
                                             <Text>Status : <Text>{item.status}</Text></Text>
                                         </View>

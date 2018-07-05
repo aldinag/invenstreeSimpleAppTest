@@ -13,7 +13,7 @@ import store from './manager';
 
 export default class App extends Component {
     onNavigationStateChange(prev, current) {
-		console.log(prev, current)
+		// console.log(prev, current)
 	}
 
     render() {

@@ -24,14 +24,10 @@ export default class HeaderComponent extends Component {
 	}
 
     render() {
-      console.log(this.props);
-      
       return (
         <View unflex centering style={Styles.container}>
             <View unflex style={Styles.leftWrapper}>
 					{ this.props.leftActions.map((action, index) => {
-                        console.log(action);
-                        
 						return (
 							<TouchableOpacity
 								enlargeHitSlop

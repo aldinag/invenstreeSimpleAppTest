@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/aldina/work/TemplateRN/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
-  /Users/aldina/work/TemplateRN/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h
+  /Users/aldina/work/invenstreeSimpleAppTest/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
+  /Users/aldina/work/invenstreeSimpleAppTest/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h
